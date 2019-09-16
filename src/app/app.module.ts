@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PhotosPresenterComponent } from './photos-presenter/photos-presenter.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { AddPhotoComponent } from './add-photo/add-photo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PhotosPresenterComponent,
+    WelcomeComponent,
+    AddPhotoComponent
   ],
   imports: [
     BrowserModule,
